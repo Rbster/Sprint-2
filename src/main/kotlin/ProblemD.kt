@@ -15,11 +15,9 @@ class ProblemD {
             listOfA = listOfA.sorted()
             for (i in 0 until n) {
                 currentM = listOfA[i]
-                for (j in i until n) {
-                    currentIncome = currentM * (j - i + 1)
-                    if (optimalIncome < currentIncome) {
-                        optimalIncome = currentIncome
-                    }
+                currentIncome = currentM * (n - i)
+                if (optimalIncome < currentIncome) {
+                    optimalIncome = currentIncome
                 }
             }
             println(optimalIncome)
