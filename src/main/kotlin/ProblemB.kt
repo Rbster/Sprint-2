@@ -10,7 +10,7 @@ class ProblemB {
         fun min(a: Int, b: Int) = if (a > b) b else a
 
         for (i in 1..t) {
-            resultBuilder = StringBuilder("")
+            resultBuilder = StringBuilder()
             inputArray = readIntArray(2)
             n = inputArray[0]
             k = inputArray[1]
