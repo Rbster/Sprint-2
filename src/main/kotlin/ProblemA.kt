@@ -1,14 +1,13 @@
 class ProblemA {
 
     fun main() {
-        var t: Int
         var a: Long
         var b: Long
         var k: Long
         var position:Long
         var listLong: List<Long>
 
-        t = readInt()
+        val t = readInt()
 
         for (i in 1..t) {
             listLong = readListLong()
