@@ -11,9 +11,6 @@ class ProblemC {
         }
         println(result)
 
-
-        //ваша реализация в методе main
-
     }
 
 }

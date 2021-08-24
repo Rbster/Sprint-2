@@ -21,8 +21,6 @@ class ProblemA {
             println(position)
         }
 
-        //ваша реализация в методе main
-
     }
 
 }

@@ -19,8 +19,6 @@ class ProblemB {
             }
             println(resultBuilder.toString())
         }
-        //ваша реализация в методе main
-
     }
 
 }
